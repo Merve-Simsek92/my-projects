@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2px">
+    <tr>
+        <th colspan="2">İŞ BAŞVURU FORMU</th>
+    </tr>  
+    <tr>
+        <td>Çalışmak İstediğiniz Pozisyon</td>
+        <td><select name="alan" id="alan">
+            <option value="Kasiyer"></option>
+            <option value="manav reyon"></option>
+            <option value="şarküteri reyon"></option>
+        </select></td>
+
+    </tr>  
+    <tr>
+        <td>İsim</td>
+        <td><input type="text" name="isim" id="isim" required> </td>
+    </tr>
+    <tr>
+        <td>Soyad</td>
+        <td><input type="text" name="soyad" id="soyad" required></td>
+    </tr>
+    <tr>
+        <td>TC kimlik no</td>
+        <td><input type="number" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>Mezuniyet durumu</td>
+        <td><input type="radio" name="okul">İlkokul <br>
+        <input type="radio" name="okul">Ortaokul <br>
+        <input type="radio" name="okul">Lise <br>
+         <input type="radio" name="okul">Üniversite        
+    </tr>
+    <tr>
+        <td>Mezun olduğunuz okulun adı</td>
+        <td><input type="text" name="okul-adı"></td>
+    </tr>
+    <tr>
+        <td>E mail</td>
+        <td><input type="email" name="mail"></td>
+    </tr>
+    <tr>
+        <td>Yaş
+        </td>
+        <td><input type="number" name="yas" min="18" max="50"></td>
+    </tr>
+    <tr>
+        <td>Medeni Hal</td>
+        <td><input type="radio" name="evli" >Evli
+            <input type="radio" name="bekar" >bekar
+    </tr>
+    <tr>
+        <td><input type="submit" value="Kaydet"></td>
+        <td><input type="reset"></td>
+    </tr>
+    </table>
+</body>
+</html>
