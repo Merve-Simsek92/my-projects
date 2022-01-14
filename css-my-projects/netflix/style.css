@@ -1,0 +1,55 @@
+body {
+    background-image:url(/background_image.jpg);
+    background-color: #0E0E0E;
+}
+
+header h1 {
+    text-align: center;
+    
+    
+}
+header h4 {
+    text-align: center;
+    color: white;
+
+}
+section {
+    width:400px;
+    height: 1000px;
+    margin 10px auto;   
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+    margin-left: 325px;
+}
+div {
+    padding:15px;
+}
+#name
+{
+        width:330px;
+        height: 30px;
+}
+#age {
+
+    width:330px;
+    height: 30px;
+}
+#e-mail {
+    
+    width:330px;
+    height: 30px;
+}
+select {
+    width:330px;
+    height: 30px;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    margin-left:140px;
+}
+
