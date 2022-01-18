@@ -1,5 +1,17 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+    
+    
+}
+body {
+    border: 0.1rem;
+    border-style: solid;
+    padding: 10px;
+    border-color: chocolate;
+    background-color: rgb(255, 240, 247);
+
 }
 h1 {
     font-size: 3rem;
@@ -15,11 +27,20 @@ input {
     margin-top: 1 rem;
     margin-bottom: 1 rem;
     font-size: 1rem;
+    background-color: lightpink;
 }
 select {
     margin-top: 0.5 rem;
     font-size: 1rem;
+    background-color: lightpink;
 }
 div {
-    font-size: 20px;
+    font-size: 1.5 rem;
+}
+textarea {
+    background-color: rgb(255, 240, 247);
+}
+button {
+   font-size: 1rem;
+   border: none;
 }
