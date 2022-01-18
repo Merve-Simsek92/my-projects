@@ -1,0 +1,12 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+p1 {
+    font-size: 5rem;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+div {
+    margin-top: 0.5rem;
+}
